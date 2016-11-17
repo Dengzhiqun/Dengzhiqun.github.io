@@ -1,0 +1,146 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+article{
+	background-color: #999999;
+}
+header{
+	background-image: url(images/75.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	text-align: center;
+	height: 100px;
+	position: fixed;
+	box-shadow: 1px 1px 4px #000;
+	box-sizing: border-box;
+}
+.a1{ 
+	margin-top: 80px;
+	/*margin-top: 8%;*/
+	margin-left: 1%;
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+.sec1{
+	width: 100%;
+	padding: 0;
+	text-align: center;
+	background-color: #999999;
+}
+.a2{
+	color: white;
+	margin: 0px;
+	text-decoration: none;
+}
+.i1{
+	margin-top: 6%;
+	width: 60%;
+	height: 400px;
+}
+.sec2{
+	margin: 1% 10%;
+	border-bottom: 1px solid gray;
+}
+.sec3{
+	margin: 1% 10%;
+	box-sizing: border-box;
+	padding: 0 20%;
+	text-align: center;
+}
+.i2{
+	margin-right: 4%;
+}
+.d5:hover{
+	 opacity: 0;
+}
+.d6{
+	background-image: url(images/38.jpg);
+	background-size: 100% 89%;
+	background-repeat: no-repeat;
+}
+.sec4{
+	margin: 1% 10%;
+}
+.d6{
+	width: 30%;
+	/*height: 200px;*/
+	margin-left: 1%;
+	display: inline-block;
+	text-align: center;
+}
+.d5{
+	width: 100%;
+	height: 180px;
+	float: left;
+}
+.sec4:after{
+	display: block;
+	clear: both;
+	content: "";
+}
+a{
+	margin: 0px;
+	color: white;
+	text-decoration: none;
+}
+.d8{
+	width: 1500px;
+	margin-left: -100px;
+}
+.left{
+	width: 50%;
+	background-color: #cccccc;
+	border-right: solid #999999;
+	height: 200px;
+	float: left;
+	text-align: right;
+	box-sizing: border-box;
+}
+.right{
+	width: 50%;
+	background-color: #cccccc;
+	height: 200px;
+	float: left;
+}
+.p3,.i4{
+	margin-left: 10px;
+	color:#999999; 
+}
+.i4{
+	margin-top: 10px;
+}
+.i3{
+	margin-right: 10px;
+	margin-top: 10px;
+}
+@media screen and (max-width: 800px) and (min-width: 300px) {
+	.i1{
+		height: 200px;
+		width: 80%;
+		margin-top: 13%;
+	}
+	.d6{
+		width: 48%;	
+		background-size: 100% 79%;
+		font-size: 8px;
+	}
+	.d5{
+		height: 100px;
+	}
+	.right,.left{
+		height: 100px;
+		font-size: 10px;
+	}
+	.i3,.i4{
+		width: 10%;
+	}
+	}
+@media screen and (min-width: 0px) and (max-width: 300px) {
+	body{
+		visibility: hidden;
+	}
+}
