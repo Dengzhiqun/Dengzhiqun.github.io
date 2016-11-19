@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+	<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<style>
+		header{
+			background-image: url(img/intro-bg.jpg);
+			text-align: center;
+			background-size: cover;
+			margin-top: 52px;
+			padding: 250px 0;
+		}
+		section{
+			padding: 50px 0;
+		}
+		footer{
+			padding: 50px 0;
+		}
+		footer a{
+			font-size: 20px;
+		}
+		.c1{
+			margin-top: 25px;
+		}
+		.c1 a{
+			display: inline-block;
+			margin-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default container-fluid navbar-fixed-top" role="navigation">
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">Srart Bootsrtap</a>
+			<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNavBar">
+					<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="mainNavBar">
+			<ul class="nav navbar-nav navbar-right">
+					<li ><a href="#header">Home</a></li>
+					<li><a href="#table-">About</a></li>
+					<li><a href="#foot">Contact</a></li>
+			</ul>
+		</div>	
+	</nav>
+	<header class="container-fluid" id="header">
+		<div class="container">
+			<h1 style="color: #fff">Bootstrap</h1>
+			<h3 style="color: #fff">一个简单的Bootstrap模板</h3>
+			<hr>	
+		</div>
+		<div class="row">
+			<div class="col-sm-2 col-sm-offset-3" style="margin-bottom: 10px;">
+				<a class=" btn btn-default btn-lg " href="#" >
+					<span class="glyphicon glyphicon-tint"></span>TWITTER
+				</a>
+			</div>
+  			<div class="col-sm-2" style="margin-bottom: 10px;">
+  				<a class=" btn btn-default btn-lg " href="#" >
+  					<span class="glyphicon glyphicon-tint"></span>GITHUB
+  				</a>
+  			</div>
+  			<div class="col-sm-2" style="margin-bottom: 10px;">
+  				<a class=" btn btn-default btn-lg " href="#" >
+  					<span class="glyphicon glyphicon-tint"></span>THENEWSTEP
+  				</a>
+  			</div>
+  		</div>
+	</header>
+	<table class="table table-striped" id="table-">
+		<tr>
+			<td>
+				<section class="container">
+					<div class="row container">
+						<div class="col-md-5">
+							<h2>生活不止眼前的苟且：<br>还有以后的</h2>
+							<p style="font-size: 20px;">生活不止眼前的苟且<a href="">还有远方的田野</a>工作只是生活的一部分,所以要抽出时间享受生活. 更要懂得休息,即使你不累!</p>
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							<img src="img/ipad.png" class="img-responsive" alt="Responsive image">
+						</div>
+					</div>
+				</section>
+			</td>		
+		</tr>
+		<tr>
+			<td>
+				<section class="container">
+					<div class="row container">
+						<div class="col-md-5 col-md-push-7">
+							<h2>上天给我们最公平的礼物<br>就是时间</h2>
+							<p style="font-size: 20px;">每个人的时间都一样,只要能够分配好,管理好,利用好<a href="">那么生活就会越来越好!</a>我坚信一句话,那就是越努力,越幸运!</p>
+						</div>
+						<div class="col-md-5 col-md-pull-5">
+							<img src="img/dog.png" class="img-responsive" alt="Responsive image">
+						</div>			
+					</div>
+				</section>
+			</td>		
+		</tr>
+		<tr>
+			<td>
+				<section class="container">
+					<div class="row container">
+						<div class="col-md-5">
+							<h2>珍惜时间<br>远离浪费!</h2>
+							<p style="font-size: 20px;">才可以让生命变得更有意义!<a href="">鸡汤说的多了</a>, 有时不是在提醒他人,<a href="">更多的是提醒自己</a>.</p>
+						</div>
+						<div class="col-md-5 col-md-offset-2">
+							<img src="img/phones.png" class="img-responsive" alt="Responsive image">
+						</div>
+					</div>
+				</section>
+			</td>
+		</tr>
+	</table>			
+	<section class="container-fluid" style="background: url(img/banner-bg.jpg);background-size: cover;" id="foot">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6" style="font-size: 60px;color: #fff;">
+					Start Bootstrap:
+				</div>
+				<div class="col-md-6 col-sm-12 col-xs-2 c1">
+					<a class="btn btn-default btn-lg" href="#" role="button">
+						<span class="glyphicon glyphicon-tint"></span>TWITTER
+					</a>
+					<a class="btn btn-default btn-lg" href="#" role="button">
+						<span class="glyphicon glyphicon-tint"></span>GITHUB
+					</a>
+					<a class="btn btn-default btn-lg" href="#" role="button">
+						<span class="glyphicon glyphicon-tint"></span>THENEWSTEP
+					</a>
+				</div>
+			</div>	
+		</div>		
+	</section>
+	<footer class="container">
+		<a href="">Home</a>⋅
+		<a href="">About</a>⋅
+		<a href="">Services</a>⋅
+		<a href="">Contact</a>
+		<p>Copyright © 课后帮 2016. All Rights Reserved</p>	       
+	</footer>
+</body>
+</html>
