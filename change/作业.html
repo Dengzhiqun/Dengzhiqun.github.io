@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<!-- 作业一 -->
+	<!-- <style>
+		div{
+			max-width: 960px;
+			margin: 0 auto;
+			background: #333;
+			padding: 20px;
+			color: #999;
+		}
+		button{
+			padding: 5px 10px;
+			display: inline-block;
+			margin-bottom: 15px;
+		}
+		input{
+			min-width: 960px;
+			height: 25px;
+		}
+		button{
+			font-size: 12px;
+			color: #999;
+			background: #333;
+		}
+	</style> -->
+<!-- 作业二 -->
+	<style>
+		div{
+			width: 100px;
+			height: 100px;
+			background: #333;
+		}
+	</style>
+</head>
+<body>
+<!-- 作业1 -->
+<!-- 	<div>
+		<h1>Let's Learn Javascript</h1>
+		<p>...cause javascript is so cute!</p>	
+	</div>
+	<div class="font-btn">
+		<button id="btn1">Click Me</button>
+		<button id="btn2">Click Me Too</button><br>
+		<input type="text" placeholder="User name" id="user">
+	</div>
+	
+	<script>
+		var arr = ['（⊙.⊙）',' (￢_￢)','╮(๑•́ ₃•̀๑)╭','（//▽//）','(“▔□▔)','(..•˘_˘•..)','๑乛◡乛๑',' (ღ˘⌣˘ღ) ','(︶︹︺)'];
+		var btn1 = document.getElementById('btn1');
+		var btn2 = document.getElementById('btn2');
+		btn1.onclick = function () {
+			var i = parseInt(Math.random()*9);
+			alert(arr[i]);
+		}
+		btn2.onclick = function () {
+			var text = document.getElementById('user').value;
+			if (text == "") {
+				alert('请输入姓名');
+			}else{
+				alert(text + " is a good name");
+			}
+		}
+	</script> -->
+<!-- 作业二 -->
+	<select name="" id="sect">
+		<option value="backgroundcolor">背景颜色</option>
+		<option value="width">宽度</option>
+		<option value="height">高度</option>
+	</select>
+	值：<input type="text" id="text">
+	<button id="btn1">按钮</button>
+	<div id="div"></div>
+	<script>
+		var btn1 = document.getElementById('btn1');
+		var div = document.getElementById('div');
+		btn1.onclick = function () {
+			var option = document.getElementById('sect').value;
+			var text = document.getElementById('text').value;
+			if (option == 'backgroundcolor') {
+			 	div.style.backgroundColor = text;
+			}
+			if (option == 'width') {
+			 	div.style.width = text +'px';
+			}
+			if (option == 'height') {
+			 	div.style.height = text +'px';
+			}
+		}
+	</script>
+</body>
+</html>

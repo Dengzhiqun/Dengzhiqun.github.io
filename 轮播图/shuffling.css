@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0;}
+#shuffl{
+	position: relative;
+	width: 800px;
+	height: 400px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+#roll{
+	position: absolute;
+	left: 0;
+	width: 32000px;
+	-webkit-transition:left 1s;
+	-o-transition:left 1s;
+	-moz-transition:left 1s;
+	-ms-transition:left 1s;
+	transition:left 1s;
+}
+#roll img{
+	height: 400px;
+	width: 800px;
+	float: left;
+}
+#btnA{
+	padding: 15px 20px;
+	position: absolute;
+	top: 178px;
+	left: 0;
+	z-index: 1;
+	display: none;
+	opacity: 0.7;
+}
+#btnB{
+	padding: 15px 20px;
+	position: absolute;
+	top: 178px;
+	left: 748px;
+	z-index: 1;
+	display: none;
+	opacity: 0.7;
+}
+.btn{
+	border-radius: 50%;
+	padding: 10px; 
+		margin: 0 20px;		
+}
+#btnsA{
+	position: absolute;
+	top: 363px;
+	z-index: 1;
+	text-align: center;
+	width: 800px;
+	opacity: 0.7;
+}
+#active{background: #333;}
