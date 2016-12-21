@@ -100,5 +100,4 @@ window.onresize = function () {
 	if (window.innerWidth >= 950) {
 		list.style.display = 'none';
 	}
-	shuffling()
 }
