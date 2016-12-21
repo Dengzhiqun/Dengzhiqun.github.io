@@ -90,8 +90,15 @@ function shuffling() {
 	init();
 }
 shuffling()
+
 var btn = document.getElementById('btn');
 var list = document.getElementById('list')
 btn.onclick = function () {
 	list.style.display == 'block' ? list.style.display = 'none' : list.style.display = 'block';
+}
+window.onresize = function () {
+	if (window.innerWidth >= 950) {
+		list.style.display = 'none';
+	}
+	shuffling()
 }
