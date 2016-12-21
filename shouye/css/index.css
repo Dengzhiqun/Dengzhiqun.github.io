@@ -344,6 +344,9 @@ footer #flb{
 	#why .li1{
 		font-size: 10px;
 	}
+	table{
+		display: none;
+	}
 	ul#list{
 		position: absolute;
 		display: block;
