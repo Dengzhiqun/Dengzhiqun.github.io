@@ -1,0 +1,421 @@
+header{
+	width: 100%;
+	height: 530px;
+	margin-bottom: 35px;
+	position: relative;
+}
+header div#logo{
+	width: 80%;
+	padding: 20px 0;
+	height: 50px;
+	margin: 0 auto;
+	margin-bottom: 35px;
+}
+header div#logo img{
+	float: left;
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+header h3{
+	font-size: 25px;
+}
+#phone{
+	float: right;
+	line-height: 50px;
+	color: #2d3e50; 
+	margin-top: -30px;
+}
+#phone img{
+	width: 40px;
+	margin-right: 20px;
+}
+#biaozhu{
+	font-size: 5px;
+	display: inline-block;
+}
+nav{
+	width: 100%;
+	height: 80px;
+	background: #2d3e50;
+	margin-top: 17px;	
+}
+#why{
+	position: absolute;
+	z-index: 1;
+}
+#why .li1{
+	background: #d33d48;
+	padding: 20px 10px;
+	font-size: 25px;
+	color: #FFF;
+	margin-top: -5px;
+}
+#why .li{
+	background: #d33d48;
+	padding: 20px 10px;
+}
+#why .li a{
+	color: #FFF;
+	text-decoration: none;
+}
+nav div#content{
+	width: 80%;
+	margin: 0 auto;
+}
+nav ul#daohang{
+	text-align: right;
+}
+nav ul#daohang li{
+	display: inline-block;
+	line-height: 80px;
+}
+nav ul#daohang li a{
+	color: #FFF;
+	text-decoration: none;
+	margin-left: 10px;
+}
+nav button{
+	display: none;
+}
+ul#list{
+	display: none;
+}
+form{
+	position: absolute;
+	top: 200px;
+	display: block;
+	width: 300px;
+	height: 65%;
+	background: #FFF;
+	padding: 10px 0 10px;
+	margin-right: 10%;
+	right: 3%;
+	border: 1px solid;
+}
+form p{
+	background: #d33d48;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	color: #FFF;
+	padding: 8px;
+}
+form a{
+	text-decoration: none;
+	color: #000;
+	margin-left: 38%;
+}
+form input{	
+	padding: 10px;
+	width: 80%;
+	margin-bottom: 20px;
+	margin-left: 10%;
+}
+.button{
+	width: 80%;
+	color: #FFF;
+	background: #d33d48;
+	font-size: 16px;
+	padding: 10px 0;
+	margin-left: 10%;
+}
+.div{
+	max-width: 80%;
+	margin: 0 auto;
+}
+div#kecheng{
+	height: 500px;
+	margin-top: 100px;
+}
+div#kecheng div#chuguo{
+	float: left;
+	width: 49.5%;
+	height: 80%;
+	border: 1px solid;
+}
+div#kecheng div#ertong{
+	float: right;
+	width: 49.5%;
+	height: 39%;
+	margin-bottom: 10px;
+	border: 1px solid;
+}
+div#kecheng div#zaixian{
+	float: right;
+	width: 49.5%;
+	height: 39%;
+	border: 1px solid;
+}
+.text{
+	width: 200px;
+	background: #848889;
+	margin-left: 0;
+	margin-top: 16px;
+	padding: 10px;
+	opacity: 0.8;
+}
+.text p{
+	color: #FFF;
+}
+.text h3{
+	color: #FFF;
+}
+.guanyu1{
+	margin: 30px 0 20px;
+	color: blue;
+}
+.guanyu2{
+	margin-bottom: 40px;
+	color: green;
+}
+table{
+	margin-bottom: 100px;
+}
+th{
+	background: #2d3e50;
+	padding: 10px 0;	
+	width: 30%;
+	color: #FFF;
+	font-size: 20px;
+	border: 3px solid #FFF; 
+}
+td{
+	width: 30%;
+	height: 50px;
+	text-align: center;
+	padding: 30px;
+	background: #eeeeee;
+	border: 3px solid #FFF;  
+}
+footer{
+	background: #2d3e50;
+	padding-top: 20px;
+}
+footer p{
+	color: #eeeeee;
+}
+footer a{
+	color: #eeeeee;
+	text-decoration: none;
+}
+footer{
+	width: 100%;
+	height: 150px;
+	padding: 50px 0;
+}
+footer #left{
+	float: left;
+	width: 50%;
+}
+footer #left img{
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-top: -25px;
+	margin-right: 10px;
+}
+footer #right{
+	float: right;
+	width: 50%;
+}
+footer #frb{
+	margin-top: 20px;
+}
+footer #frt{
+	margin-top: -23px;
+}
+footer #flt{
+	margin-top: -20px;
+	font-size: 30px;
+}
+footer #flb{
+	margin-top: 20px;
+}
+
+#shuffl{
+	position: relative;
+	width: 100%;
+	height: 420px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	/*top: -159px;*/
+}
+#roll{
+	position: absolute;
+	left: 0;
+	width: 500%;
+	z-index: -1;	
+}
+.animal{
+	-webkit-transition:left 1s;
+	-o-transition:left 1s;
+	-moz-transition:left 1s;
+	-ms-transition:left 1s;
+	transition:left 1s;
+}
+#roll img{
+	height: 600px;
+	width: 20%;
+	float: left;
+}
+#btnA{
+	padding: 15px 20px;
+	position: absolute;
+	top: 178px;
+	left: 10%;
+	z-index: 1;
+	display: none;
+	opacity: 0.7;
+}
+#btnB{
+	padding: 15px 20px;
+	position: absolute;
+	top: 178px;
+	right: 10%;
+	z-index: 1;
+	display: none;
+	opacity: 0.7;
+}
+.btn{
+	border-radius: 50%;
+	padding: 10px; 
+	margin: 0 20px;		
+}
+.btn1{
+	display: none;
+}
+#btnsA{
+	position: absolute;
+	top: 386px;
+	z-index: 1; 
+	text-align: center;
+	width: 80%;
+	margin-left: 10%;
+	opacity: 0.7;
+}
+#active{
+	background: #333;
+}
+.fenge{
+	display: none;
+}
+#Les{
+	margin-bottom: 10px;
+}
+@media screen and (max-width: 950px) {
+	header{
+		height: 630px;
+	}
+	header div#logo{	
+		height: 135px;
+		margin: 0 auto;
+		min-width: 30%;
+		text-align: center;
+	}
+	header div#logo img{
+		float: left;
+	}
+	#phone{
+		float: none;
+		margin-top: 20px;	
+	}
+	nav ul#daohang{
+		display: none;
+	}
+	nav{
+		position: relative;
+	}
+	nav button{
+		display: block;
+		padding: 20px;
+		position: absolute;
+		right: 10px;
+		top: 15px;
+	}
+	.btn{
+		border-radius: 50%;
+		padding: 5px; 
+		margin: 0 10px;		
+	}
+	#why li{
+		font-size: 10px;
+	}
+	#why .li1{
+		font-size: 10px;
+	}
+	ul#list{
+		position: absolute;
+		display: block;
+		background: #2d3e50;
+		z-index: 1;
+		width: 150px;
+		display: none;
+		right: 0;
+	}
+	ul#list li{
+		padding: 15px;
+	}
+	ul#list li a{
+		text-decoration: none;
+		color: #FFF;
+	}
+	header form{
+		display: none;
+	}
+	div#kecheng{
+		margin-bottom: 150px;
+	}
+	div#kecheng div#chuguo{
+		width: 100%;
+		height: 33%;
+		border: 1px solid;
+		margin-bottom: 10px;
+	}
+	div#kecheng div#ertong{
+		width: 100%;
+		height: 33%;
+		margin-bottom: 10px;
+		border: 1px solid;
+	}
+	div#kecheng div#zaixian{
+		width: 100%;
+		height: 33%;
+		border: 1px solid;
+	}
+	footer{
+		height: 250px;
+	}
+	footer #left{
+		float: none;
+		width: 100%;
+	}
+	footer #left img{
+		float: left;
+		width: 100px;
+		height: 100px;
+		margin-top: 0;
+		margin-right: 10px;
+	}
+	footer #right{
+		float: none;
+		width: 100%;
+		margin-top: 20px;
+	}
+	footer #frb{
+		margin-top: 10px;
+	}
+	footer #frt{
+		margin-top: 0;
+	}
+	footer #flt{
+		margin-top: -20px;
+		font-size: 30px;
+	}
+	footer #flb{
+		margin-top: 20px;
+	}
+	.fenge{
+		display: block;
+	}
+}
