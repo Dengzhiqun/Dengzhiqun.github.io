@@ -11,6 +11,9 @@
 	position: absolute;
 	left: 0;
 	width: 32000px;
+	
+}
+.animal{
 	-webkit-transition:left 1s;
 	-o-transition:left 1s;
 	-moz-transition:left 1s;
@@ -44,6 +47,9 @@
 	border-radius: 50%;
 	padding: 10px; 
 		margin: 0 20px;		
+}
+.btn1{
+	display: none;
 }
 #btnsA{
 	position: absolute;

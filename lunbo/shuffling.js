@@ -27,6 +27,9 @@ function shuffling() {
 		for (var i = 0; i < btns.length; i++) {
 			btns[i].id = "";	
 		}
+		if (index==4) {
+			btns[0].id = "active";
+		}
 	 	btns[index].id = "active";
 	}
 	//下部按钮点击事件
@@ -40,7 +43,13 @@ function shuffling() {
 	}
 	//平移
 	function step(index) {
-		rolling.style.left = index * -imgWidth + 'px';
+		if (index==0) {
+			rolling.className = '';
+			rolling.style.left = index * -imgWidth;
+		}else{
+			rolling.className = 'animal';
+			rolling.style.left = index * -imgWidth + 'px';
+		}
 	}
 	//左右点击事件
 	btnA.onclick = function () {
