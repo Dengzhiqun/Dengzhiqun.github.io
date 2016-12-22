@@ -59,6 +59,7 @@ function shuffling() {
 			rolling.className = '';
 			rolling.style.left = index * -imgWidth + 'px';
 		}else{
+			rolling.className = 'animal';
 			rolling.style.left = index * -imgWidth + 'px';
 		}
 		Corresponding(index);
@@ -70,6 +71,7 @@ function shuffling() {
 			rolling.className = '';
 			rolling.style.left = index * -imgWidth + 'px';
 		}else{
+			rolling.className = 'animal';
 			rolling.style.left = index * -imgWidth + 'px';
 		}
 		Corresponding(index);
