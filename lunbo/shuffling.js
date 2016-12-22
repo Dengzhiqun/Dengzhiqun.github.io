@@ -56,6 +56,7 @@ function shuffling() {
 		index++;
 		if (index >= imgs.length) {
 			index = 0;
+			rolling.className = '';
 			rolling.style.left = index * -imgWidth + 'px';
 		}else{
 			rolling.style.left = index * -imgWidth + 'px';
@@ -66,6 +67,7 @@ function shuffling() {
 		index--;
 		if (index < 0) {
 			index = imgs.length - 1;
+			rolling.className = '';
 			rolling.style.left = index * -imgWidth + 'px';
 		}else{
 			rolling.style.left = index * -imgWidth + 'px';
