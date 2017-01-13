@@ -38,7 +38,6 @@ header{
 	min-width: 150px;
 }
 #head_left{
-<<<<<<< HEAD
 	max-width: 65px;
 	margin-top: -11px;	
 }
@@ -49,7 +48,6 @@ header{
 }
 #head_right{
 	min-width: 47px;	
->>>>>>> origin/master
 }
 #french{
 	height: 280px;
@@ -120,7 +118,7 @@ header{
 }
 .the_learning_environment div{
 	width: 50%;
-	height: 50%;
+	height: 40%;
 	margin: 0 auto;
 }
 #make_an_appointment_to_audition{
