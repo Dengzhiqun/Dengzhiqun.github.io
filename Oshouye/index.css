@@ -47,8 +47,7 @@ header{
 }
 #head_right{
 	max-width: 47px;
-	min-width: 65px;
-	margin-top: -11px;	
+	min-width: 65px;	
 }
 #head_right{
 	min-width: 47px;	
@@ -174,5 +173,11 @@ footer img{
 @media screen and (max-width: 500px) {
 	.the_learning_environment{
 		height: 450px;
+	}
+	header{
+		height: 73px;
+	}
+	#make_an_appointment_to_audition{
+		height: 410px;
 	}
 }
