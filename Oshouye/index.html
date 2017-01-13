@@ -110,3 +110,15 @@
 	</footer>
 </body>
 </html>
+<script>
+	function func() {
+		//获取屏幕宽度   clientWidth   可视区域的宽度
+		var _width = document.documentElement.clientWidth||document.body.clientWidth
+		//获取字体大小
+		var html = document.getElementsByTagName('html')[0];
+		html.style.fontSize = _width/750 + 'px';
+	}
+	func();
+	//当屏幕的尺寸发生改变时调用函数
+	window.onresize = func;
+</script>
