@@ -8,19 +8,19 @@ img{
 	height: 100%;
 }
 input::-webkit-input-placeholder {
-	font-size: 18px;
+	font-size: 18rem;
 	color: #D6D0CA !important; /* WebKit browsers */
 }
 input:-moz-placeholder {
-	font-size: 18px;
+	font-size: 18rem;
 	color: #D6D0CA !important; /* Mozilla Firefox 4 to 18 */
 }
 input::-moz-placeholder {
-	font-size: 18px;
+	font-size: 18rem;
 	color: #D6D0CA !important; /* Mozilla Firefox 19+ */
 }
 input:-ms-input-placeholder {
-	font-size: 18px;
+	font-size: 18rem;
 	color: #D6D0CA !important; /*Internet Explorer 10+ */
 }
 header{
