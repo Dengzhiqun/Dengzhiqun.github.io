@@ -8,19 +8,19 @@ img{
 	height: 100%;
 }
 input::-webkit-input-placeholder {
-	font-size: 18rem;
+	font-size: 18px;
 	color: #D6D0CA !important; /* WebKit browsers */
 }
 input:-moz-placeholder {
-	font-size: 18rem;
+	font-size: 18px;
 	color: #D6D0CA !important; /* Mozilla Firefox 4 to 18 */
 }
 input::-moz-placeholder {
-	font-size: 18rem;
+	font-size: 18px;
 	color: #D6D0CA !important; /* Mozilla Firefox 19+ */
 }
 input:-ms-input-placeholder {
-	font-size: 18rem;
+	font-size: 18px;
 	color: #D6D0CA !important; /*Internet Explorer 10+ */
 }
 header{
@@ -136,7 +136,7 @@ header{
 #make_an_appointment_to_audition input{
 	width: 100%;
 	height: 55px;
-	font-size: 22rem;
+	font-size: 22px;
 	margin-bottom: 40px;
 }
 #make_an_appointment_to_audition button{
