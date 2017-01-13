@@ -1,0 +1,164 @@
+body{
+	max-width: 750px;
+	margin: 0 auto;
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 1px red;
+}
+input::-webkit-input-placeholder {
+	font-size: 18px;
+	color: #D6D0CA !important; /* WebKit browsers */
+}
+input:-moz-placeholder {
+	font-size: 18px;
+	color: #D6D0CA !important; /* Mozilla Firefox 4 to 18 */
+}
+input::-moz-placeholder {
+	font-size: 18px;
+	color: #D6D0CA !important; /* Mozilla Firefox 19+ */
+}
+input:-ms-input-placeholder {
+	font-size: 18px;
+	color: #D6D0CA !important; /*Internet Explorer 10+ */
+}
+header{
+	display: flex;
+	max-width: 100%;
+	height: 100px;
+	margin-top: 10px;
+	padding: 20px 20px;	
+}
+#head_center{
+	text-align: center;
+	flex-grow: 1;
+	flex-flow: 1;
+	margin-top: -10px;
+	min-width: 150px;
+}
+#head_left{
+	min-width: 65px;
+	margin-top: -11px;	
+}
+#head_right{
+	min-width: 47px;	
+}
+#french{
+	height: 280px;
+	max-width: 750px;
+}
+#tel{
+	margin: 0 auto;
+	margin-top: 60px;
+	height: 80px;
+	max-width: 515px;
+	border-radius: 25px;
+	background: #e6565d;
+	font-size: 20px;
+}
+#tel div{
+	max-width: 410px;
+	height: 80px;
+	line-height: 80px;
+	margin: 0 auto;
+	text-align: center;
+}
+#tel span{
+	color: #fff;
+}
+#about_us{
+	height: 293px;
+	margin: 75px 8% 90px;	
+}
+#about_us_top{
+	margin-bottom: 35px;
+	display: flex;	
+}
+#about_us_bottom{
+	display: flex;	
+}
+#about_us_bottom .about_us{
+	flex-grow: 1;
+	flex-grow: 1;
+	text-align: center;	
+}
+#about_us_top .about_us{
+	flex-grow: 1;
+	flex-grow: 1;
+	text-align: center;		
+}
+.about_us div{
+	width: 80%;
+	height: 80%;
+	border-radius: 50%;	
+	margin: 0 auto;
+}
+.about_us p{
+	font-size: 18px;
+}
+.the_learning_environment{
+	width: 100%;
+	height: 665px;
+	text-align: center;
+}
+.the_learning_environment h1{
+	margin-bottom: 15px;
+	font-size: 50px;
+}
+.the_learning_environment p{
+	margin-bottom: 60px;
+	font-size: 30px;
+	color: #5b5b5b;
+}
+.the_learning_environment div{
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+}
+#make_an_appointment_to_audition{
+	height: 522px;
+	width: 100%;
+	padding: 0 60px;
+	text-align: center;
+}
+#make_an_appointment_to_audition h1{
+	font-size: 50px;
+	margin-bottom: 40px;
+	color: #d33d48;
+}
+#make_an_appointment_to_audition input{
+	width: 100%;
+	height: 55px;
+	font-size: 22px;
+	margin-bottom: 40px;
+}
+#make_an_appointment_to_audition button{
+	background-color: #d33d48;
+	color: #fff;
+	font-size: 25px;
+	padding: 20px 0;
+	text-align: center;
+	width: 100%;
+}
+footer{
+	display: flex;
+	width: 100%;
+	height: 100px;
+	background: #2d3e50;
+}
+footer div{
+	flex-grow: 1;
+	flex-flow: 1;
+	text-align: center;
+	font-size: 20px;
+	width: 50px;
+}
+footer p{
+	color: #fff;
+}
+footer img{
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
