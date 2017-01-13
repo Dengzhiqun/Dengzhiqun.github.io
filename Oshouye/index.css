@@ -37,7 +37,8 @@ header{
 	min-width: 150px;
 }
 #head_center div{
-	max-width: 30%;
+	max-width: 40%;
+	margin: 0 auto;
 }
 #head_left{
 	max-width: 65px;
