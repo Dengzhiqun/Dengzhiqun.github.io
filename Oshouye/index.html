@@ -62,38 +62,38 @@
 	<section class="the_learning_environment">
 		<h1>外授教课</h1>
 		<p>外授课时占总课时90%以上</p>
-		<div><a href=""><img src="img/er.jpg" alt=""></a></div>
+		<div><a href=""><img src="img/er.jpg" alt="" id="img1"></a></div>
 	</section>
 	<section class="the_learning_environment">
 		<h1>法国师资</h1>
 		<p>具有多年教学研究经验的外教与中教</p>
-		<div><a href=""><img src="img/man.jpg" alt=""></a></div>
+		<div><a href=""><img src="img/man.jpg" alt="" id="img2"></a></div>
 	</section>
 	<section class="the_learning_environment">
 		<h1>小班授课</h1>
 		<p>12人以内小班授课，保证高频口语训练</p>
-		<div><a href=""><img src="img/student.jpg" alt=""></a></div>
+		<div><a href=""><img src="img/student.jpg" alt="" id="img3"></a></div>
 	</section>
 	<section class="the_learning_environment">
 		<h1>360服务</h1>
 		<p>退款服务、调班服务、重听服务、补课服务</p>
-		<div><a href=""><img src="img/kefu.jpg" alt=""></a></div>
+		<div><a href=""><img src="img/kefu.jpg" alt="" id="img4"></a></div>
 	</section>
 	<section class="the_learning_environment">
 		<h1>互换学习</h1>
 		<p>线上可转换为线下学习<br>
 		线下可转换为线上学习</p>
-		<div><a href=""><img src="img/dazi.jpg" alt=""></a></div>
+		<div><a href=""><img src="img/dazi.jpg" alt="" id="img5"></a></div>
 	</section>
 	<section class="the_learning_environment">
 		<h1>VR + 4D</h1>
 		<p>VR + 4D模拟有趣环境进行浸泡式体验教学</p>
-		<div><a href=""><img src="img/people.jpg" alt=""></a></div>
+		<div><a href=""><img src="img/people.jpg" alt="" id="img6"></a></div>
 	</section>
 	<section class="the_learning_environment">
 		<h1>尖端教学设备</h1>
 		<p>法国进口教材生动实用，大量教学视频和音频，逼真教学道具</p>
-		<div><a href=""><img src="img/bu.jpg" alt=""></a></div>
+		<div><a href=""><img src="img/bu.jpg" alt="" id="img7"></a></div>
 	</section>
 	<section id="make_an_appointment_to_audition">
 		<h1>预约免费试听</h1>
@@ -104,24 +104,42 @@
 		</form>
 	</section>
 	<footer>
-		<div><a href=""><img src="img/shouye.png" alt=""></a><p>首页</p></div>
-		<div><a href=""><img src="img/meg.png" alt=""></a><p>在线咨询</p></div>
-		<div><a href=""><img src="img/dianhua.png" alt=""></a><p>咨询电话</p></div>
+		<div id="foot_left"><a href=""><img src="img/shouye.png" alt=""></a><p>首页</p></div>
+		<div id="foot_center"><a href=""><img src="img/meg.png" alt=""></a><p>在线咨询</p></div>
+		<div id="foot_right"><a href=""><img src="img/dianhua.png" alt=""></a><p>咨询电话</p></div>
 	</footer>
 </body>
 </html>
 <script>
-	function func() {
-		//获取屏幕宽度   clientWidth   可视区域的宽度
-		var _width = document.documentElement.clientWidth||document.body.clientWidth
-		if (_width > 750) {
-			_width = 750;
+	window.onload=function(){
+      // 获取屏幕的宽度
+      var bodyWidth=document.documentElement.clientWidth;
+      //做手机适配
+      //1rem=20px
+      	if (bodyWidth > 750) {
+			bodyWidth = 750;
 		}
-		//获取字体大小
-		var html = document.getElementsByTagName('html')[0];
-		html.style.fontSize = _width/750 + 'px';
+      var widthsize=bodyWidth*20/750;
+      //alert(widthsize)
+      document.documentElement.style.fontSize=widthsize+"px";
 	}
-	func();
-	//当屏幕的尺寸发生改变时调用函数
-	window.onresize = func;
+	window.onscroll=function(){
+	     // 获取屏幕宽度
+	     var bodyWidth=document.documentElement.clientWidth;
+	     if (bodyWidth > 750) {
+			bodyWidth = 750;
+		}
+	     var widthsize=bodyWidth*20/750;
+	     document.documentElement.style.fontSize=widthsize+"px";
+	}
+	window.onresize=function(){
+	     // 获取屏幕的宽度
+	     var bodyWidth=document.documentElement.clientWidth;
+	     if (bodyWidth > 750) {
+			bodyWidth = 750;
+		}
+	     //做手机适配
+	     var widthsize=bodyWidth*20/750;
+	     document.documentElement.style.fontSize=widthsize+"px";
+	}
 </script>

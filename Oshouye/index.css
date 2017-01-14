@@ -1,11 +1,6 @@
-html{font-size: 1px;}
 body{
 	max-width: 750px;
 	margin: 0 auto;
-}
-img{
-	width: 100%;
-	height: 100%;
 }
 input::-webkit-input-placeholder {
 	font-size: 18px;
@@ -39,23 +34,34 @@ header{
 	text-align: center;
 	flex-grow: 1;
 	flex-flow: 1;
-	min-width: 150px;
 }
-#head_center div{
-	max-width: 50%;
-	margin: 0 auto;
+#head_center img{
+	width: 12.65rem;
+	height: 3.55rem;
 }
 #head_left{
 	width: 50px;
 	height: 50px;
 }
+#head_left img{
+	width: 2.35rem;
+	height: 2.35rem;
+}
 #head_right{
 	width: 50px;	
 	height: 50px;
 }
+#head_right img{
+	width: 2.35rem;
+	height: 2.35rem;
+}
 #french{
 	height: 280px;
 	max-width: 750px;
+}
+#french img{
+	width: 37.5rem;
+	height: 14rem;
 }
 #tel{
 	margin: 0 auto;
@@ -79,6 +85,10 @@ header{
 #about_us{
 	height: 320px;
 	margin: 75px 8% 30px;	
+}
+#about_us img{
+	width: 6rem;
+	height: 6rem;
 }
 #about_us_top{
 	margin-bottom: 35px;
@@ -121,18 +131,46 @@ header{
 }
 .the_learning_environment h1{
 	margin-bottom: 15px;
-	font-size: 50rem;
+	font-size: 2.5rem;
 }
 .the_learning_environment p{
 	margin-bottom: 60px;
-	font-size: 30rem;
+	font-size: 1.5rem;
 	color: #5b5b5b;
 }
 .the_learning_environment div{
-	width: 285px;
-	height: 280px;
+	width: 100%;
 	margin: 0 auto;
 }
+#img1{
+	width: 19.8rem;
+	height: 21.2rem;
+}
+#img2{
+	width: 19.8rem;
+	height: 21.3rem;
+}
+#img3{
+	width: 23rem;
+	height: 19.75rem;
+}
+#img4{
+	width: 20.1rem;
+	height: 19.8rem;
+}
+#img5{
+	width: 20.1rem;
+	height: 19.8rem;
+}
+#img6{
+	width: 25.4rem;
+	height: 19.55rem;
+}
+#img7{
+	width: 23.55rem;
+	height: 20rem;
+}
+
 #make_an_appointment_to_audition{
 	height: 522px;
 	width: 100%;
@@ -140,7 +178,7 @@ header{
 	text-align: center;
 }
 #make_an_appointment_to_audition h1{
-	font-size: 50rem;
+	font-size: 2.5rem;
 	margin-bottom: 40px;
 	color: #d33d48;
 }
@@ -153,11 +191,12 @@ header{
 #make_an_appointment_to_audition button{
 	background-color: #d33d48;
 	color: #fff;
-	font-size: 25rem;
+	font-size: 1.25rem;
 	padding: 20px 0;
 	text-align: center;
 	width: 100%;
 }
+
 footer{
 	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
 	display: -moz-box; /* 老版本语法: Firefox (buggy) */
@@ -172,16 +211,23 @@ footer div{
 	flex-grow: 1;
 	flex-flow: 1;
 	text-align: center;
-	font-size: 20rem;
 	width: 60px;
+	margin-top: 12px;
 }
 footer p{
 	color: #fff;
 }
-footer img{
-	width: 50px;
-	height: 50px;
-	margin-top: 20px;
+#foot_left{
+	width: 2.45rem;
+	height: 2.3rem;
+}
+#foot_center{
+	width: 3.05rem;
+	height: 2.4rem;
+}
+#foot_right{
+	width: 2.4rem;
+	height: 2.4rem;
 }
 @media screen and (max-width: 500px) {
 	header{
