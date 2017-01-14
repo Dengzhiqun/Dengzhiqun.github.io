@@ -24,7 +24,12 @@ input:-ms-input-placeholder {
 	color: #D6D0CA !important; /*Internet Explorer 10+ */
 }
 header{
-	display: flex;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box; /* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox; /* 混合版本语法: IE 10 */
+	display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+	display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
+
 	max-width: 100%;
 	height: 100px;
 	margin-top: 10px;
@@ -41,13 +46,12 @@ header{
 	margin: 0 auto;
 }
 #head_left{
-	max-width: 65px;
+	width: 50px;
+	height: 50px;
 }
 #head_right{
-	max-width: 65px;	
-}
-#head_right{
-	min-width: 47px;	
+	width: 50px;	
+	height: 50px;
 }
 #french{
 	height: 280px;
@@ -73,15 +77,23 @@ header{
 	color: #fff;
 }
 #about_us{
-	height: 293px;
+	height: 320px;
 	margin: 75px 8% 30px;	
 }
 #about_us_top{
 	margin-bottom: 35px;
-	display: flex;	
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box; /* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox; /* 混合版本语法: IE 10 */
+	display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+	display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */	
 }
 #about_us_bottom{
-	display: flex;	
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box; /* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox; /* 混合版本语法: IE 10 */
+	display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+	display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */	
 }
 #about_us_bottom .about_us{
 	flex-grow: 1;
@@ -117,7 +129,7 @@ header{
 	color: #5b5b5b;
 }
 .the_learning_environment div{
-	width: 280px;
+	width: 285px;
 	height: 280px;
 	margin: 0 auto;
 }
@@ -147,7 +159,11 @@ header{
 	width: 100%;
 }
 footer{
-	display: flex;
+	display: -webkit-box; /* 老版本语法: Safari, iOS, Android browser, older WebKit browsers. */
+	display: -moz-box; /* 老版本语法: Firefox (buggy) */
+	display: -ms-flexbox; /* 混合版本语法: IE 10 */
+	display: -webkit-flex; /* 新版本语法: Chrome 21+ */
+	display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
 	width: 100%;
 	height: 100px;
 	background: #2d3e50;
@@ -168,11 +184,11 @@ footer img{
 	margin-top: 20px;
 }
 @media screen and (max-width: 500px) {
-	.the_learning_environment{
-		height: 450px;
-	}
 	header{
 		height: 73px;
+	}
+	.the_learning_environment{
+		height: 450px;
 	}
 	#make_an_appointment_to_audition{
 		height: 410px;

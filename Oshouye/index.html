@@ -114,6 +114,9 @@
 	function func() {
 		//获取屏幕宽度   clientWidth   可视区域的宽度
 		var _width = document.documentElement.clientWidth||document.body.clientWidth
+		if (_width > 750) {
+			_width = 750;
+		}
 		//获取字体大小
 		var html = document.getElementsByTagName('html')[0];
 		html.style.fontSize = _width/750 + 'px';
