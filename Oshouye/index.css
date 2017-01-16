@@ -29,7 +29,7 @@ header{
 	display: flex; /* 新版本语法: Opera 12.1, Firefox 22+ */
 
 	max-width: 100%;
-	height: 100px;
+	height: 5rem;
 	margin-top: 10px;
 	padding: 10px 20px 0px;	
 }
@@ -51,26 +51,23 @@ header{
 	height: 2.35rem;
 	text-align: right;
 }
-#french{
-	height: 280px;
-	max-width: 750px;
-}
 #french img{
 	width: 37.5rem;
 	height: 14rem;
 }
 #tel{
 	margin: 0 auto;
-	height: 80px;
-	max-width: 515px;
-	border-radius: 25px;
+	margin-top: 2rem;
+	height: 4rem;
+	max-width: 25rem;
+	border-radius: 1rem;
 	background: #e6565d;
 	font-size: 20px;
 }
 #tel div{
 	max-width: 410px;
-	height: 80px;
-	line-height: 80px;
+	height: 4rem;
+	line-height: 4rem;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -78,8 +75,8 @@ header{
 	color: #fff;
 }
 #about_us{
-	height: 320px;
-	margin: 75px 8% 30px;	
+	height: 17rem;
+	margin: 3rem 8% 30px;	
 }
 #about_us img{
 	width: 6rem;
@@ -111,9 +108,6 @@ header{
 	text-align: center;		
 }
 .about_us div{
-	width: 80%;
-	height: 80%;
-	border-radius: 50%;	
 	margin: 0 auto;
 }
 .about_us p{
