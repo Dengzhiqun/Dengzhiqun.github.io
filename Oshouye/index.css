@@ -183,6 +183,7 @@ footer{
 	width: 100%;
 	height: 100px;
 	background: #2d3e50;
+	margin-top: 20px;
 }
 footer div{
 	flex-grow: 1;
