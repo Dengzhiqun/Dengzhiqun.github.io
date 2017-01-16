@@ -55,24 +55,12 @@ header{
 	width: 37.5rem;
 	height: 14rem;
 }
-#tel{
-	margin: 0 auto;
-	margin-top: 2rem;
-	height: 4rem;
-	max-width: 25rem;
-	border-radius: 1rem;
-	background: #e6565d;
-	font-size: 1rem;
+#head_right span{
+	font-size: 0.8rem;	
+	color: black;
 }
-#tel div{
-	max-width: 410px;
-	height: 4rem;
-	line-height: 4rem;
-	margin: 0 auto;
-	text-align: center;
-}
-#tel span{
-	color: #fff;
+#head_right a{
+	text-decoration: none;
 }
 #about_us{
 	height: 17rem;
@@ -219,9 +207,6 @@ footer p{
 	height: 2.4rem;
 }
 @media screen and (max-width: 500px) {
-	header{
-		height: 73px;
-	}
 	.the_learning_environment{
 		height: 450px;
 	}
