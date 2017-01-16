@@ -76,7 +76,7 @@ header{
 }
 #about_us{
 	height: 17rem;
-	margin: 3rem 8% 30px;	
+	margin: 3rem 8%;	
 }
 #about_us img{
 	width: 6rem;
@@ -111,7 +111,7 @@ header{
 	margin: 0 auto;
 }
 .about_us p{
-	font-size: 18px;
+	font-size: 1rem;
 }
 .the_learning_environment{
 	width: 100%;
