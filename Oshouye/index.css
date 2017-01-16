@@ -151,7 +151,7 @@ header{
 #make_an_appointment_to_audition{
 	height: 26rem;
 	width: 100%;
-	padding: 0 3rem;
+	padding: 0 2rem;
 	text-align: center;
 }
 #make_an_appointment_to_audition h1{
@@ -161,7 +161,7 @@ header{
 }
 #make_an_appointment_to_audition input{
 	width: 100%;
-	height: 2.5rem;
+	height: 3.5rem;
 	font-size: 1.1rem;
 	margin-bottom: 2rem;
 }
