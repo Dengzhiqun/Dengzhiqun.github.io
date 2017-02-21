@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<select id="select" onchange="change()">
+		<option value="福利">福利</option>
+		<option value="波波">波波</option>
+		<option value="星星">星星</option>
+		<option value="梦洁">梦洁</option>
+		<option value="涛涛">涛涛</option>
+	</select>
+	<div id="div"></div>
+	<script>
+		var div = document.getElementById('div');
+		function change() {
+			var val = document.getElementById('select');
+			Get(val.value,success,error);
+			function success(responseText) {
+				div.innerHTML = responseText;
+			}
+			function error(status) {
+				div.innerHTML = status;
+			}
+		}
+		function Get(str,success,error) {
+			var xmlHttp;
+			if (window.XMLHttpRequest) {
+				xmlHttp = new XMLHttpRequest();
+			}else{
+				xmlHttp = new ActiveXObject();
+			}
+			xmlHttp.open("GET","table.php?name="+str,true);
+			xmlHttp.send(null);
+			xmlHttp.onreadystatechange = function () {
+				if (xmlHttp.readyState == 4) {
+					if (xmlHttp.status == 200) {
+						if (success) {
+							success(xmlHttp.responseText);
+						}
+					}
+				}else{
+					if (error) {
+						error(xmlHttp.status);
+					}
+				}
+			}
+		}
+	</script>
+</body>
+</html>

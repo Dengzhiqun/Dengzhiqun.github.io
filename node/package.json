@@ -1,0 +1,19 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "放下面子，会知道微笑原来那么容易走近，放下面子，会看到温暖是那么的阳光。为人，别贪图别人的钱财，处世，别将就一辈子，该吃的别嫌弃，该忘的别拿起来。身上的衣服不能决定未来的前途，能力的卓越一定得忘记背景。喜欢安静的人，是看透了，不愿意合群的人，是读懂了。老的时候，你会知道，放得下面子，是一种收获，不是吃亏，是一种幸福。",
+  "main": "node.js",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "ejs": "^2.5.5",
+    "express": "^4.14.1",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

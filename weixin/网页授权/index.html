@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,initial-scale=1.0,user-scalable=no">
+	<title>网页授权流程</title>
+</head>
+<body>
+	<h2>微信网页授权流程</h2>
+	<ol>
+		<li>编辑人员编辑文章/网页/其他，群发给所有关注的粉丝</li>
+		<li>粉丝会浏览文章，然后分享到朋友圈</li>
+		<li>粉丝的部分朋友会浏览文章，如果想要粉丝朋友的个人信息，两种方法：1.引导用户关注你的公众号。2.引导用户阅读原文</li>
+		<li>如果用户点击阅读原文，那么需要引导用户进行授权</li>
+		<li>当用户同意授权后，就可以拿到用户的个人基本信息.例如：头像，昵称</li>
+		<li>获取用户的基本信息，可以用于对于的逻辑处理，例如：排行榜</li>
+	</ol>
+	<a href="https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxa7e4ad7b31a9d61e&redirect_uri=http://dwitf.applinzi.com/weixin/auth/auth.php&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect">阅读</a>
+</body>
+</html>
