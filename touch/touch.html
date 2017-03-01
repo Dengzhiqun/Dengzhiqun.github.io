@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+</html>
+<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script>
+	$(window).on("touchstart", function(e) {
+	    e.preventDefault();
+	    startX = e.originalEvent.changedTouches[0].pageX,
+	    startY = e.originalEvent.changedTouches[0].pageY;
+	});
+	$(window).on("touchmove", function(e) {
+	    e.preventDefault();
+	    moveEndX = e.originalEvent.changedTouches[0].pageX,
+	    moveEndY = e.originalEvent.changedTouches[0].pageY,
+	    X = moveEndX - startX,
+	    Y = moveEndY - startY;
+	     
+	    if ( Math.abs(X) > Math.abs(Y) && X > 0 ) {
+	        alert("right");
+	    }
+	    else if ( Math.abs(X) > Math.abs(Y) && X < 0 ) {
+	        alert("left");
+	    }
+	    else if ( Math.abs(Y) > Math.abs(X) && Y > 0) {
+	        alert("bottom");
+	    }
+	    else if ( Math.abs(Y) > Math.abs(X) && Y < 0 ) {
+	        alert("top");
+	    }
+	});
+</script>
